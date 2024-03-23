@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP T93YA104KT20
+D 100k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93
+K
+F https://www.vishay.com/docs/51026/t93.pdf
+$ENDCMP
+#
+#End Doc Library

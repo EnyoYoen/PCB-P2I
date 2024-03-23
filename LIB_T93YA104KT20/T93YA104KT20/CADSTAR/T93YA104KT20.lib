@@ -1,0 +1,16 @@
+.T93YA104KT20 :1 ;100k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93
+T93YA5K10
+*STM VR
+*NGS
+*PLB 1="A" 2="B" 3="C"
+*MXP 3
+*DFN T93YA104KT20
+~!Mouser Part Number (72-T93YA-100K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/T93YA104KT20?qs=h4f6qdGYbtgSg1CywbpKQw%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (T93YA104KT20)
+~!Link Datasheet (https://www.vishay.com/docs/51026/t93.pdf)
+~!Height (9mm)
+~!3D_Model (T93YA104KT20)
+T93YA104KT20
+1.1!U 2.1!U 3.1!U 

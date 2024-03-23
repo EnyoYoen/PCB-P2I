@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'T93YA104KT20'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "T93YA104KT20" (!) = "", "T93YA5K10", "Other", "72-T93YA-100K", "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/T93YA104KT20?qs=h4f6qdGYbtgSg1CywbpKQw%3D%3D", "100k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93", "https://www.vishay.com/docs/51026/t93.pdf", "9 mm"
+END_PART
+
+END.

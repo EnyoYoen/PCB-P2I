@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=T93YA104KT20
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=2.2
+Released=2018-05-03 15:00:27
+Downloaded=2024-03-20 21:07:28
+3D=Y

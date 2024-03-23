@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "T93YA104KT20"
+   (description "100k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93")
+   (family "ANA")
+   (package "T93YA5K10")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/51026/t93.pdf")
+   (attribute "Geometry.Height" "9mm")
+   (attribute "Mouser Part Number" "72-T93YA-100K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/T93YA104KT20?qs=h4f6qdGYbtgSg1CywbpKQw%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "T93YA104KT20")
+   (gate
+    (symbol "T93YA104KT20")
+    (pin "A" 1 PS)
+    (pin "B" 2 PS)
+    (pin "C" 3 PS)
+   )
+  )
+  (symbol "T93YA104KT20"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "T93YA5K10"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 4.85)
+      (pt 2.5 4.85)
+      (pt 2.5 -4.85)
+      (pt -2.5 -4.85)
+      (pt -2.5 4.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 4.85)
+      (pt 2.5 4.85)
+      (pt 2.5 -4.85)
+      (pt -2.5 -4.85)
+      (pt -2.5 4.85))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 5.85)
+      (pt 3.5 5.85)
+      (pt 3.5 -5.85)
+      (pt -3.5 -5.85)
+      (pt -3.5 5.85))))
+   (leg 1 (pt 0.200 -2.540) (padstack 0))
+   (leg 2 (pt 0.200 0.000) (padstack 0))
+   (leg 3 (pt 0.200 2.540) (padstack 0))
+   (padstack 0
+    (hole 0.7)
+    (plated true)
+    (pad (layer TCOP) (round 1.200))
+    (pad (layer INNER) (round 1.200))
+    (pad (layer BCOP) (round 1.200))
+   )
+   (model "T93YA104KT20.stp"
+    (euler 90 0 90)
+    (offset 0.23999999463558197 0 10.0600004196167)
+   )
+  )
+ )
+)

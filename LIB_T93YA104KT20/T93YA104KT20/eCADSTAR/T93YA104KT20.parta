@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_918805"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-03-15:00:27)
+    (utime 2023-11-10-14:22:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "T93YA104KT20")
+)
+
+
+(pinAssign "ECS_918805"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-03-15:00:27)
+    (utime 2023-11-10-14:22:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_918805")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "T93YA104KT20")
+)
+
+
+(part "T93YA104KT20"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-05-03-15:00:27)
+    (utime 2023-11-10-14:22:13)
+    (packageRef "T93YA104KT20")
+    (pinAssignRef "ECS_918805")
+    (interface
+        (port "1" (symbPinId 1) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "VR")
+    (property "description" "100k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93")
+    (property "Mouser_Part_Number" "72-T93YA-100K")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/T93YA104KT20?qs=h4f6qdGYbtgSg1CywbpKQw%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "T93YA104KT20")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/51026/t93.pdf")
+    (property "compAreaTopHeight" 9)
+)
+
+
