@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP601_I_P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP601-I/P" (!) = "", "DIP781W56P254L950H533Q8N", "Dual-In-Line Packages", "579-MCP601IP", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP601-I-P?qs=caJrvSDHBA%2FmOLB5k64cCA%3D%3D", "Single low power op-amp,MCP601-I/P DIP8 Microchip MCP601-I/P Op Amp, 2.8MHz CMOS, Rail to Rail, 3 V, 5 V, 8-Pin PDIP", "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf", "5.334 mm"
+END_PART
+
+END.
